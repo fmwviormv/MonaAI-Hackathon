@@ -1,0 +1,4 @@
+#!/bin/sh
+
+curl -X POST -d '[out:json];rel(390393);out geom;' https://overpass-api.de/api/interpreter > saar.json
+curl -X POST -d '[out:json];rel(410743);out geom;' https://overpass-api.de/api/interpreter > blies.json
